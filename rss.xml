@@ -10,11 +10,36 @@
         </author>
         <description>日常生活~( &#39;-ωก̀ )</description>
         <language>zh-TW</language>
-        <pubDate>Mon, 27 Dec 2021 18:20:00 +0000</pubDate>
-        <lastBuildDate>Mon, 27 Dec 2021 18:20:00 +0000</lastBuildDate>
+        <pubDate>Wed, 12 Jan 2022 11:19:40 +0000</pubDate>
+        <lastBuildDate>Wed, 12 Jan 2022 11:19:40 +0000</lastBuildDate>
         <category term="ǼǾՖ唯一ی" />
         <category term="python" />
         <category term="blog" />
+        <item>
+            <guid isPermalink="true">https://sao.dsmynas.com/test/</guid>
+            <title>test</title>
+            <link>https://sao.dsmynas.com/test/</link>
+            <pubDate>Wed, 12 Jan 2022 11:19:40 +0000</pubDate>
+            <description><![CDATA[ &lt;p&gt;&lt;div class=&#34;media-container&#34;&gt;&lt;div class=&#34;player&#34; data-type=&#34;video&#34; data-src=&#39;[{&#34;name&#34;:&#34;测试 1&#34;,&#34;url&#34;:&#34;/~only/[LovelyHero] Vivy -Fluorite Eye&#39;s Song [BD][1080p] S01_E09.mkv&#34;}]&#39;&gt;&lt;/div&gt;&lt;/div&gt;&lt;/p&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://sao.dsmynas.com/%E6%9C%9F%E6%9C%AB%E8%80%83%E9%A1%8C%E5%BA%AB/</guid>
+            <title>期末考題庫</title>
+            <link>https://sao.dsmynas.com/%E6%9C%9F%E6%9C%AB%E8%80%83%E9%A1%8C%E5%BA%AB/</link>
+            <pubDate>Sat, 01 Jan 2022 09:04:26 +0000</pubDate>
+            <description><![CDATA[ &lt;ol&gt;
+&lt;li&gt;英文
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&#34;https://sao.DSmyNAS.com:5000/sharing/NweuQ0KPS&#34; target=&#34;_blank&#34;&gt;英文聽力&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sao.DSmyNAS.com:5000/sharing/bf15gbcuS&#34; target=&#34;_blank&#34;&gt;Unit 3 字彙表&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sao.DSmyNAS.com:5000/sharing/VgcWqlCBj&#34; target=&#34;_blank&#34;&gt;Unit 4 字彙表&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://sao.DSmyNAS.com:5000/sharing/oOYBWVH2w&#34; target=&#34;_blank&#34;&gt;中悅期末考題庫&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+ ]]></description>
+        </item>
         <item>
             <guid isPermalink="true">https://sao.dsmynas.com/%E8%B3%87%E6%96%99%E7%A7%91%E5%AD%B8%E5%B0%8E%E8%AB%96%20%E5%A0%B1%E5%91%8A/</guid>
             <title>資料科學導論 報告</title>
