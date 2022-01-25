@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://sao.dsmynas.com/%E8%AE%93%E5%A4%9A%E5%80%8B%20Github%20%E5%80%89%E5%BA%AB%E4%BD%BF%E7%94%A8%E7%9B%B8%E5%90%8C%E7%9A%84%20Deploy%20Key/</loc>
+    
+    <lastmod>2022-01-25</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://sao.dsmynas.com/statistics/article/index.html</loc>
     
     <lastmod>2022-01-25</lastmod>
@@ -191,6 +200,20 @@
   
   <url>
     <loc>https://sao.dsmynas.com/tags/%E7%A8%8B%E5%BC%8F%E7%B7%B4%E7%BF%92/</loc>
+    <lastmod>2022-01-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://sao.dsmynas.com/tags/Github/</loc>
+    <lastmod>2022-01-25</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://sao.dsmynas.com/tags/SSH/</loc>
     <lastmod>2022-01-25</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
