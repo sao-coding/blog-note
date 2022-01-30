@@ -884,5 +884,82 @@ for 迴圈 1 開始要記得 11 結束&lt;br /&gt;
 &lt;/div&gt;
  ]]></description>
         </item>
+        <item>
+            <guid isPermalink="true">https://sao.dsmynas.com/code/golang/week-1/</guid>
+            <title>第01章 基礎語法</title>
+            <link>https://sao.dsmynas.com/code/golang/week-1/</link>
+            <category term="程式語言" scheme="https://sao.dsmynas.com/categories/code/" />
+            <category term="Golang" scheme="https://sao.dsmynas.com/categories/code/golang/" />
+            <category term="程式語言" scheme="https://sao.dsmynas.com/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
+            <category term="Golang" scheme="https://sao.dsmynas.com/tags/Golang/" />
+            <category term="程式學習" scheme="https://sao.dsmynas.com/tags/%E7%A8%8B%E5%BC%8F%E5%AD%B8%E7%BF%92/" />
+            <pubDate>Fri, 24 Dec 2021 18:20:00 +0000</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;注釋&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#注釋&#34;&gt;#&lt;/a&gt; 注釋&lt;/h1&gt;
+&lt;pre&gt;&lt;code class=&#34;language-golang&#34;&gt;// 單行注釋
+/*
+Author by 唯一
+我是多行注釋
+*/
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h1 id=&#34;輸出hello-world&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#輸出hello-world&#34;&gt;#&lt;/a&gt; 輸出 Hello, World!&lt;/h1&gt;
+&lt;pre&gt;&lt;code class=&#34;language-golang&#34;&gt;package main // 可執行程式必須使用 main 封包
+import &amp;quot;fmt&amp;quot; // 載入內建的 fmt 封包，用來做基本輸出輸入
+func main()&amp;#123; // 建立 main 函式，程式的進入點
+    // 輸出字串 Hello, World!
+    fmt.Println(&amp;quot;Hello, World!&amp;quot;)
+&amp;#125;
+&lt;/code&gt;&lt;/pre&gt;
+ ]]></description>
+        </item>
+        <item>
+            <guid isPermalink="true">https://sao.dsmynas.com/code/golang/week-2/</guid>
+            <title>第02章 資料、資料型態與變數</title>
+            <link>https://sao.dsmynas.com/code/golang/week-2/</link>
+            <category term="程式語言" scheme="https://sao.dsmynas.com/categories/code/" />
+            <category term="Golang" scheme="https://sao.dsmynas.com/categories/code/golang/" />
+            <category term="程式語言" scheme="https://sao.dsmynas.com/tags/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/" />
+            <category term="Golang" scheme="https://sao.dsmynas.com/tags/Golang/" />
+            <category term="程式學習" scheme="https://sao.dsmynas.com/tags/%E7%A8%8B%E5%BC%8F%E5%AD%B8%E7%BF%92/" />
+            <pubDate>Fri, 24 Dec 2021 18:20:00 +0000</pubDate>
+            <description><![CDATA[ &lt;h1 id=&#34;資料型態&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#資料型態&#34;&gt;#&lt;/a&gt; 資料型態&lt;/h1&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;資料型態&lt;/th&gt;
+&lt;th&gt;語法&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;整數&lt;/td&gt;
+&lt;td&gt;int&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;浮點數&lt;/td&gt;
+&lt;td&gt;float64&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;字串&lt;/td&gt;
+&lt;td&gt;string&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;布林值&lt;/td&gt;
+&lt;td&gt;bool&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;字元&lt;/td&gt;
+&lt;td&gt;rune&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h1 id=&#34;變數的使用流程&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#變數的使用流程&#34;&gt;#&lt;/a&gt; 變數的使用流程&lt;/h1&gt;
+&lt;h2 id=&#34;宣告變數&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#宣告變數&#34;&gt;#&lt;/a&gt; 宣告變數&lt;/h2&gt;
+&lt;p&gt;&lt;span class=&#34;red&#34;&gt;var&lt;/span&gt; &lt;span class=&#34;blue&#34;&gt;變數名稱&lt;/span&gt; &lt;span class=&#34;green&#34;&gt;資料型態名稱&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&#34;指定資料&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#指定資料&#34;&gt;#&lt;/a&gt; 指定資料&lt;/h2&gt;
+&lt;p&gt;&lt;span class=&#34;blue&#34;&gt;變數名稱&lt;/span&gt; =&lt;span class=&#34;green&#34;&gt; 對應型態的資料&lt;/span&gt;&lt;/p&gt;
+&lt;h2 id=&#34;使用變數&#34;&gt;&lt;a class=&#34;anchor&#34; href=&#34;#使用變數&#34;&gt;#&lt;/a&gt; 使用變數&lt;/h2&gt;
+&lt;p&gt;使用&lt;span class=&#34;red&#34;&gt;變數名稱&lt;/span&gt;代替資料來做運算&lt;/p&gt;
+ ]]></description>
+        </item>
     </channel>
 </rss>

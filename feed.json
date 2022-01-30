@@ -89,6 +89,34 @@
                 "程式語言",
                 "程式練習"
             ]
+        },
+        {
+            "id": "https://sao.dsmynas.com/code/golang/week-1/",
+            "url": "https://sao.dsmynas.com/code/golang/week-1/",
+            "title": "第01章 基礎語法",
+            "date_published": "2021-12-24T18:20:00.000Z",
+            "content_html": "<h1 id=\"注釋\"><a class=\"anchor\" href=\"#注釋\">#</a> 注釋</h1>\n<pre><code class=\"language-golang\">// 單行注釋\n/*\nAuthor by 唯一\n我是多行注釋\n*/\n</code></pre>\n<h1 id=\"輸出hello-world\"><a class=\"anchor\" href=\"#輸出hello-world\">#</a> 輸出 Hello, World!</h1>\n<pre><code class=\"language-golang\">package main // 可執行程式必須使用 main 封包\nimport &quot;fmt&quot; // 載入內建的 fmt 封包，用來做基本輸出輸入\nfunc main()&#123; // 建立 main 函式，程式的進入點\n    // 輸出字串 Hello, World!\n    fmt.Println(&quot;Hello, World!&quot;)\n&#125;\n</code></pre>\n",
+            "tags": [
+                "程式語言",
+                "Golang",
+                "程式語言",
+                "Golang",
+                "程式學習"
+            ]
+        },
+        {
+            "id": "https://sao.dsmynas.com/code/golang/week-2/",
+            "url": "https://sao.dsmynas.com/code/golang/week-2/",
+            "title": "第02章 資料、資料型態與變數",
+            "date_published": "2021-12-24T18:20:00.000Z",
+            "content_html": "<h1 id=\"資料型態\"><a class=\"anchor\" href=\"#資料型態\">#</a> 資料型態</h1>\n<table>\n<thead>\n<tr>\n<th>資料型態</th>\n<th>語法</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>整數</td>\n<td>int</td>\n</tr>\n<tr>\n<td>浮點數</td>\n<td>float64</td>\n</tr>\n<tr>\n<td>字串</td>\n<td>string</td>\n</tr>\n<tr>\n<td>布林值</td>\n<td>bool</td>\n</tr>\n<tr>\n<td>字元</td>\n<td>rune</td>\n</tr>\n</tbody>\n</table>\n<h1 id=\"變數的使用流程\"><a class=\"anchor\" href=\"#變數的使用流程\">#</a> 變數的使用流程</h1>\n<h2 id=\"宣告變數\"><a class=\"anchor\" href=\"#宣告變數\">#</a> 宣告變數</h2>\n<p><span class=\"red\">var</span> <span class=\"blue\">變數名稱</span> <span class=\"green\">資料型態名稱</span></p>\n<h2 id=\"指定資料\"><a class=\"anchor\" href=\"#指定資料\">#</a> 指定資料</h2>\n<p><span class=\"blue\">變數名稱</span> =<span class=\"green\"> 對應型態的資料</span></p>\n<h2 id=\"使用變數\"><a class=\"anchor\" href=\"#使用變數\">#</a> 使用變數</h2>\n<p>使用<span class=\"red\">變數名稱</span>代替資料來做運算</p>\n",
+            "tags": [
+                "程式語言",
+                "Golang",
+                "程式語言",
+                "Golang",
+                "程式學習"
+            ]
         }
     ]
 }
